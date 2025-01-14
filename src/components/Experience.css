@@ -1,0 +1,80 @@
+/* src/components/Experience.css */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #ffffff;
+    --background-color: #1e1e2f;
+    --card-bg-color: #282840;
+    --text-color: #fff;
+  }
+  
+  .experience {
+    padding: 50px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .experience-card {
+    background-color: var(--card-bg-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  .experience-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .experience-card p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--secondary-color);
+    margin-bottom: 1em;
+  }
+  
+  /* Add responsive breakpoints */
+  @media (max-width: 1024px) {
+    .experience-card h3 {
+      font-size: 1.5em;
+    }
+    .experience-card p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .experience-card h3 {
+      font-size: 1.2em;
+    }
+    .experience-card p {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .experience {
+      padding: 20px;
+    }
+    .experience-card h3 {
+      font-size: 1em;
+    }
+    .experience-card p {
+      font-size: 0.8em;
+    }
+  }
+  

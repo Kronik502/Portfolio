@@ -1,0 +1,38 @@
+/* src/components/Skills.css */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #ffffff;
+    --background-color: #282840;
+    --skill-bg-color: #1e1e2f;
+    --skill-text-color: #00aaff;
+  }
+  
+  .skills {
+    padding: 50px;
+    background-color: var(--background-color);
+    color: var(--secondary-color); /* Ensure consistent text color */
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skill {
+    background-color: var(--skill-bg-color);
+    padding: 15px 30px; /* Increased padding for better spacing */
+    border-radius: 8px;
+    color: var(--skill-text-color);
+    font-size: 1.2em; /* Adjusted font size for better readability */
+    font-weight: 500; /* Slightly bold text for emphasis */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  }
+  
+  .skill:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  }
+  

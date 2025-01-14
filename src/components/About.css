@@ -1,0 +1,73 @@
+/* src/components/About.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #282840;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.profile-pic {
+  flex: 1;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out 2s;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-content {
+  flex: 2;
+  padding: 20px;
+  animation: fadeIn 2s ease-in-out 4s;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  animation: fadeIn 2s ease-in-out 6s;
+}
+
+.about p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  animation: fadeIn 2s ease-in-out 8s;
+}
+
+.typing {
+  border-right: 2px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: typing 8s steps(100, end), blink-caret 0.75s step-end infinite;
+  max-width: 100%;
+  box-sizing: border-box;
+}

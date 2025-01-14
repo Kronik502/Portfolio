@@ -1,0 +1,39 @@
+import profiletwo from
+ 
+'./Profile3.jpg',
+ 
+  .hero p {
+      font-size: 1.1rem;
+  }
+ 
+ border: #fff;
+  border-radius: 2px;
+}
+ 
+var(--secondary-color)
+ 
+.hero p
+ 
+// src/components/Header.js
+import { Link } from 'react-scroll';
+ 
+header>
+ 
+</header>
+ 
+<a href="#projects" className="btn">View My Work</a>
+ 
+<nav>
+ 
+</nav>
+ 
+ <ul>
+ 
+<li><Link to="home" className="nav-btn" smooth={true} duration={500}>Home</Link></li>
+          <li><Link to="about" className="nav-btn" smooth={true} duration={500}>About</Link></li>
+          <li><Link to="projects" className="nav-btn" smooth={true} duration={500}>Projects</Link></li>
+          <li><Link to="skills" className="nav-btn" smooth={true} duration={500}>Skills</Link></li>
+          <li><Link to="experience" className="nav-btn" smooth={true} duration={500}>Experience</Link></li>
+          <li><Link to="contact" className="nav-btn" smooth={true} duration={500}>Contact</Link></li>
+        </ul>
+ 

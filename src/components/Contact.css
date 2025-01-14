@@ -1,0 +1,59 @@
+/* src/components/Contact.css */
+
+/* Define color variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #282840;
+    --text-color: #ffffff;
+  }
+  
+  .contact {
+    padding: 50px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  .contact-info a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info a:hover {
+    color: var(--primary-color) ;
+   
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .color-button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white ;
+    color: white;
+    font-size: 24px; /* Adjust icon size */
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .color-button:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,96 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: hsl(240, 22%, 15%);
+  box-shadow: 0 4px 8px rgba(0, 195, 255, 0.795); /* Subtle shadow for the header */
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out; /* Smooth background change */
+}
+
+.header:hover {
+  background-color: #232430; /* Darker background on hover */
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00aaff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease; /* Smooth logo color change */
+}
+
+.logo:hover {
+  color: #0099cc; /* Subtle hover color change on logo */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 30px; /* Increased spacing between buttons */
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 24px; /* Adjusted padding for a bigger button look */
+  border-radius: 50px;  /* Circular button shape */
+  font-size: 16px;
+  font-weight: 600; /* Slightly bolder text */
+  cursor: pointer;
+  background-color: #007bff;  /* Primary button color */
+  transition: all 0.3s ease; /* Smooth transitions for all properties */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Soft shadow around the buttons */
+}
+
+.nav-links a:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  color: #ffffff; /* Keep text white */
+  transform: translateY(-3px); /* Slightly raise button on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.nav-links a:active {
+  transform: translateY(2px); /* Button presses down a little on click */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow when active */
+}
+
+.nav-links a:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 3px rgba(0, 170, 255, 0.5); /* Custom focus ring */
+}
+
+.nav-links a:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Add animation to the logo and buttons for better entry effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.nav-links a {
+  animation: fadeIn 1.2s ease-in-out;
+  animation-delay: 0.2s;
+}
