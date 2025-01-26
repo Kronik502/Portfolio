@@ -1,3 +1,42 @@
+.about {
+  /* Add your About component styling here */
+}
+
+.resume {
+  /* Add your Resume component styling here */
+}
+
+.skills {
+  /* Add your Skills component styling here */
+}
+
+.projects {
+  /* Add your Projects component styling here */
+}
+
+.feedback {
+  /* Add your Feedback component styling here */
+}
+
+.goals {
+  /* Add your Goals component styling here */
+}
+
+.contact {
+  /* Add your Contact component styling here */
+}
+
+ 
+PostProgramGoals
+ 
+fileone from '../images/Profile.jpg';
+ 
+ <h2 className='location'>MLAB CodeTribe - TEMBISA</h2>
+ 
+<p className="fade-in">Full-Stack Web And Application Developer | MERN Stack Enthusiast</p>
+ 
+ {/* Step 4 */}
+ 
 import profiletwo from
  
 './Profile3.jpg',

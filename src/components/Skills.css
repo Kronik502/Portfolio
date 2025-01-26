@@ -1,38 +1,83 @@
 /* src/components/Skills.css */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #ffffff;
-    --background-color: #282840;
-    --skill-bg-color: #1e1e2f;
-    --skill-text-color: #00aaff;
-  }
-  
-  .skills {
-    padding: 50px;
-    background-color: var(--background-color);
-    color: var(--secondary-color); /* Ensure consistent text color */
-  }
-  
-  .skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .skill {
-    background-color: var(--skill-bg-color);
-    padding: 15px 30px; /* Increased padding for better spacing */
-    border-radius: 8px;
-    color: var(--skill-text-color);
-    font-size: 1.2em; /* Adjusted font size for better readability */
-    font-weight: 500; /* Slightly bold text for emphasis */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-  }
-  
-  .skill:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
-  }
-  
+  --primary-color: #3498db;
+  --secondary-color: #ffffff;
+  --background-color: #282840;
+  --skill-bg-color: #525252;
+  --skill-text-color: #00aaff;
+  --progress-bar-color: #3ff312;
+}
+
+.skills {
+  padding: 50px;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.skill {
+  background-color: var(--skill-bg-color);
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: var(--skill-text-color);
+  font-size: 1.2em;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(243, 243, 243, 0.2);
+  width: 600px;
+  height: 90
+px;
+  text-align: center;
+  position: relative;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.skill-name {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.progress-bar-container {
+  background-color: #444;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: var(--progress-bar-color);
+  height: 100%;
+  transition: width 0.5s ease;
+}
+
+.rating-note {
+  margin-top: 10px;
+  font-size: 1em;
+  color: white;
+  font-weight: normal;
+}
+
+.skill-description {
+  display: none; /* Initially hidden */
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: var(--secondary-color);
+  font-weight: normal;
+  padding-top: 5px;
+  border-top: 1px solid var(--skill-text-color);
+}
+
+.skill:hover .skill-description {
+  display: block; /* Display description on hover */
+}

@@ -1,0 +1,50 @@
+/* src/components/Feedback.css */
+
+.feedback {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+  }
+  
+  .feedback-reflection, .feedback-comments {
+    margin-bottom: 25px;
+  }
+  
+  .feedback-reflection h3, .feedback-comments h3 {
+    color: #444444;
+    font-size: 22px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .feedback-reflection p, .feedback-comments ul {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 8px 0;
+  }
+  
+  .feedback-comments ul {
+    padding-left: 20px;
+    list-style-type: circle;
+  }
+  
+  .feedback-comments ul li {
+    margin-bottom: 8px;
+  }
+  
