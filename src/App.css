@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #000000;
+  background: linear-gradient(90deg, #6a82fb, #fc5c7d);
   color: #333;
 }
 
@@ -15,10 +15,10 @@ body {
 }
 
 .section {
-  width: 95%;
-  margin: 20px 0;
+  width: 100%;
+  
   padding: 40px;
-  background-color: #000000;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #6a82fb, #fc5c7d);
+  border-radius: 50px;
+  box-shadow: 2px rgb(255, 255, 255);
 }

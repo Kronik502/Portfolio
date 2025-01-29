@@ -2,8 +2,8 @@
   --primary-color: #3498db;
   --secondary-color: #ffffff;
   --text-color: #fff;
-  --accent-color: #ff6347; /* Tomato accent for hover */
-  --background-gradient: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  --accent-color: #ececec; /* Tomato accent for hover */
+  --background-gradient: linear-gradient(90deg, #6a82fb, #fc5c7d);
 }
 
 body {
@@ -54,7 +54,8 @@ body {
 
 .name-text {
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 900;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   color: var(--primary-color);
   margin-top: 20px;
   opacity: 0;
@@ -63,10 +64,10 @@ body {
 }
 
 .profession-text {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin-top: 15px;
+  font-weight: 900;
   color: var(--text-color);
-  font-weight: 300;
   line-height: 1.5;
   opacity: 0;
   animation: fadeIn 1.5s ease-out forwards, slideUp 1s ease-out forwards;
@@ -77,6 +78,7 @@ body {
   font-size: 1.5rem;
   color: var(--accent-color);
   margin-top: 1.5rem;
+  font-weight: 800;
   opacity: 0;
   animation: fadeIn 1s ease-out forwards, slideUp 0.8s ease-out forwards;
   animation-delay: 1.3s;

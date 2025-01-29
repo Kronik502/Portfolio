@@ -4,15 +4,15 @@
   justify-content: center;
   align-items: center;
   padding: 3rem;
-  background-color: #f9f9f9;
+  background: linear-gradient(90deg, #6a82fb, #fc5c7d);
   min-height: 100vh;
 }
 
 .about-card {
   max-width: 900px;
-  background: #fff;
+  background: transparent ;
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.733);
   padding: 2.5rem;
   display: flex;
   flex-direction: column;
@@ -27,31 +27,33 @@
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #6c63ff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.993);
 }
 
 /* Typography */
 .about-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #333;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .typing {
   font-size: 1.6rem;
-  color: #444;
-  line-height: 1.75;
+  color: #ffffff;
+  line-height: 1.9;
   text-align: justify;
   margin: 1.5rem 0;
   font-family: 'Roboto', sans-serif;
   word-wrap: break-word;
+  font-weight: 700;
 }
 
 .fun-fact {
   font-size: 1.3rem;
   font-style: italic;
-  color: #6c63ff;
+  font-weight: 900;
+  color: #ffffff;
 }
 
 /* Hover and transition effects for interactivity */
@@ -63,7 +65,7 @@
 
 .profile-pic img:hover {
   border-color: #444;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.877);
   transition: border-color 0.3s, box-shadow 0.3s ease;
 }
 

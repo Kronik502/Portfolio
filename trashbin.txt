@@ -1,3 +1,19 @@
+fafafa
+ 
+  height: 10px;
+ 
+normal
+ 
+50
+ 
+background:;
+ 
+ transparent= 50%
+ 
+ 4px 6px
+ 
+  font-weight: 300;
+ 
 .about {
   /* Add your About component styling here */
 }

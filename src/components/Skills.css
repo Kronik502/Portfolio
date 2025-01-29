@@ -10,19 +10,20 @@
 
 .skills {
   padding: 50px;
-  background-color: var(--background-color);
-  color: var(--secondary-color);
+  background: linear-gradient(90deg, #6a82fb, #fc5c7d);
+  color: white;
+
 }
 
 .skills-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
 }
 
 .skill {
-  background-color: var(--skill-bg-color);
+  background-color: rgb(0, 0, 0);
   padding: 15px 30px;
   border-radius: 8px;
   color: var(--skill-text-color);
@@ -31,8 +32,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 5px 15px rgba(243, 243, 243, 0.2);
   width: 600px;
-  height: 90
-px;
+  height: 180px;
   text-align: center;
   position: relative;
 }
@@ -63,21 +63,25 @@ px;
 
 .rating-note {
   margin-top: 10px;
-  font-size: 1em;
-  color: white;
-  font-weight: normal;
+  font-size: 1.32rem;
+  color: var(--progress-bar-color);
+  font-weight: 700;
 }
 
 .skill-description {
   display: none; /* Initially hidden */
   margin-top: 10px;
   font-size: 0.9em;
-  color: var(--secondary-color);
-  font-weight: normal;
+  color: var(--skill-text-color);
+  font-weight: 400;
   padding-top: 5px;
   border-top: 1px solid var(--skill-text-color);
 }
 
 .skill:hover .skill-description {
   display: block; /* Display description on hover */
+}
+.skils-title{
+  font-size: 2.7rem;
+  color: white;
 }

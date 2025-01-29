@@ -20,7 +20,7 @@ function Skills() {
 
   return (
     <section id="skills" className="skills">
-      <h2>Skills</h2>
+      <h2 className='skils-title' >Skills</h2>
       <div className="skills-list">
         {skills.map((skill, index) => (
           <div key={index} className="skill">
