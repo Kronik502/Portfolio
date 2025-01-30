@@ -1,3 +1,21 @@
+180px
+ 
+fc5c7d
+ 
+ --neon-pink: #ff3385;
+  --neon-green: #32f7d3;
+ 
+ 
+ar(--primary-color)
+ 
+.hero-image:hover {
+  transform: scale(1.05) rotateY(15deg);
+  box-shadow: 0 0 50px var(--neon-glow);
+  filter: brightness(1.5);
+}
+ 
+linear-gradient(90deg, #6a82fb, #fc5c7d)
+ 
 fafafa
  
   height: 10px;

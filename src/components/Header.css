@@ -20,14 +20,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background: linear-gradient(135deg, #2b5876, #4e4376);
+  background: linear-gradient(90deg, #000000, #01002c); 
   position: relative;
   z-index: 10;
   transition: background 0.3s ease, padding 0.3s ease;
 }
 
 .header.open {
-  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  background: linear-gradient(135deg, #000000, #fc5c7d);
 }
 
 .logo {

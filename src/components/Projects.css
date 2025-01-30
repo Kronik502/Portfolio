@@ -1,7 +1,7 @@
 /* src/components/Projects.css */
 .projects {
     padding: 50px;
-    background: linear-gradient(90deg, #6a82fb, #fc5c7d);
+    background: linear-gradient(90deg, #000000, #01002c); 
   }
   
   .project-grid {
