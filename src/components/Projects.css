@@ -1,32 +1,59 @@
-/* src/components/Projects.css */
 .projects {
-    padding: 50px;
-    background: linear-gradient(90deg, #000000, #01002c); 
-  }
-  
+  padding: 50px;
+  background: linear-gradient(360deg, #000000, #5f7cff73);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: linear-gradient(360deg, #000000, #19276473);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(247, 238, 238, 0.664);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+  max-width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-links .btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.project-links .btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
   .project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    grid-template-columns: 1fr;
   }
   
   .project-card {
-    background-color: #282840;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    flex: 1 1 calc(33.333% - 40px);
-    margin-bottom: 20px;
+    padding: 15px;
   }
-  
-  .project-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .project-links {
-    margin-top: 10px;
-  }
-  
+}
