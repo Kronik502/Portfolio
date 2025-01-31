@@ -85,3 +85,11 @@
   font-size: 2.7rem;
   color: white;
 }
+/* Add this to your existing CSS */
+
+.skill-logo {
+  width: 130px; /* Adjust the size as needed */
+  height: 130px; /* Adjust the size as needed */
+  margin-right: 30px; /* Space between the logo and skill name */
+  vertical-align: middle; /* Align logo vertically with text */
+}
