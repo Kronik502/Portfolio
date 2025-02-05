@@ -4,7 +4,11 @@
 :root {
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
+<<<<<<< HEAD
     --background-color: #282840;
+=======
+    --background-color: #000000;
+>>>>>>> master
     --text-color: #ffffff;
   }
   
@@ -45,7 +49,11 @@
     display: inline-block;
     padding: 10px;
     border-radius: 5px;
+<<<<<<< HEAD
     background-color:white ;
+=======
+    background-color:rgb(3, 3, 3) ;
+>>>>>>> master
     color: white;
     font-size: 24px; /* Adjust icon size */
     text-decoration: none;

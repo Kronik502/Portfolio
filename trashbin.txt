@@ -1,0 +1,141 @@
+<p>Date Completed : 10 October 2024</p>
+ 
+tree/main
+ 
+start
+ 
+    </section>
+       <section id="contact" className="contact">
+      
+        </section>
+ 
+ {/* Single Image */}
+ 
+ {/* Step 4 */}
+ 
+   {/* Step 3 */}
+ 
+ {/* Step 2 */}
+ 
+ {/* Step 1 */}
+ 
+ {/* Step 0 */}
+ 
+// Keep the image
+ 
+// Progress every 2.5 seconds for better pacing
+ 
+// Only one image used here
+ 
+180px
+ 
+fc5c7d
+ 
+ --neon-pink: #ff3385;
+  --neon-green: #32f7d3;
+ 
+ 
+ar(--primary-color)
+ 
+.hero-image:hover {
+  transform: scale(1.05) rotateY(15deg);
+  box-shadow: 0 0 50px var(--neon-glow);
+  filter: brightness(1.5);
+}
+ 
+linear-gradient(90deg, #6a82fb, #fc5c7d)
+ 
+fafafa
+ 
+  height: 10px;
+ 
+normal
+ 
+50
+ 
+background:;
+ 
+ transparent= 50%
+ 
+ 4px 6px
+ 
+  font-weight: 300;
+ 
+.about {
+  /* Add your About component styling here */
+}
+
+.resume {
+  /* Add your Resume component styling here */
+}
+
+.skills {
+  /* Add your Skills component styling here */
+}
+
+.projects {
+  /* Add your Projects component styling here */
+}
+
+.feedback {
+  /* Add your Feedback component styling here */
+}
+
+.goals {
+  /* Add your Goals component styling here */
+}
+
+.contact {
+  /* Add your Contact component styling here */
+}
+
+ 
+PostProgramGoals
+ 
+fileone from '../images/Profile.jpg';
+ 
+ <h2 className='location'>MLAB CodeTribe - TEMBISA</h2>
+ 
+<p className="fade-in">Full-Stack Web And Application Developer | MERN Stack Enthusiast</p>
+ 
+ {/* Step 4 */}
+ 
+import profiletwo from
+ 
+'./Profile3.jpg',
+ 
+  .hero p {
+      font-size: 1.1rem;
+  }
+ 
+ border: #fff;
+  border-radius: 2px;
+}
+ 
+var(--secondary-color)
+ 
+.hero p
+ 
+// src/components/Header.js
+import { Link } from 'react-scroll';
+ 
+header>
+ 
+</header>
+ 
+<a href="#projects" className="btn">View My Work</a>
+ 
+<nav>
+ 
+</nav>
+ 
+ <ul>
+ 
+<li><Link to="home" className="nav-btn" smooth={true} duration={500}>Home</Link></li>
+          <li><Link to="about" className="nav-btn" smooth={true} duration={500}>About</Link></li>
+          <li><Link to="projects" className="nav-btn" smooth={true} duration={500}>Projects</Link></li>
+          <li><Link to="skills" className="nav-btn" smooth={true} duration={500}>Skills</Link></li>
+          <li><Link to="experience" className="nav-btn" smooth={true} duration={500}>Experience</Link></li>
+          <li><Link to="contact" className="nav-btn" smooth={true} duration={500}>Contact</Link></li>
+        </ul>
+ 
