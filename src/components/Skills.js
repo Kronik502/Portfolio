@@ -19,16 +19,16 @@ function Skills() {
   const skills = [
     { name: 'JavaScript', rating: 70, note: 'Intermediate', description: 'Skilled in JavaScript ES6 and beyond, creating functional Apps.', logo: JavaScriptLogo },
     { name: 'ReactJS', rating: 90, note: 'Advanced', description: 'Experienced in creating dynamic web apps with React.', logo: ReactLogo },
-    { name: 'Redux', rating: 70, note: 'Advanced', description: 'Skilled in managing state using Redux.', logo: ReduxLogo },
+    { name: 'Redux', rating: 70, note: 'Intermediate', description: 'Skilled in managing state using Redux.', logo: ReduxLogo },
     { name: 'NodeJS', rating: 65, note: 'Intermediate', description: 'Comfortable with building backends using NodeJS.', logo: NodeLogo },
     { name: 'Express', rating: 60, note: 'Intermediate', description: 'Proficient in building REST APIs using Express.', logo: ExpressLogo },
     { name: 'HTML', rating: 95, note: 'Advanced', description: 'Strong knowledge of semantic HTML and accessibility.', logo: Html },
     { name: 'CSS', rating: 80, note: 'Advanced', description: 'Experienced in designing responsive layouts and animations.', logo: CssLogo },
-    { name: 'MongoDB', rating: 80, note: 'Advanced', description: 'Skilled in working with NoSQL databases like MongoDB.', logo: MongoDBLogo },
-    { name: 'Firebase', rating: 85, note: 'Intermediate', description: 'Experienced in using Firebase for backend services.', logo: FirebaseLogo },
-    { name: 'Git', rating: 70, note: 'Intermediate', description: 'Proficient in version control with Git.', logo: GitLogo },
-    { name: 'GitHub', rating: 85, note: 'Advanced', description: 'Experienced with GitHub for collaboration and version control.', logo: GitHubLogo },
-    { name: 'Vercel', rating: 85, note: 'Advanced', description: 'Proficient in deploying applications with Vercel.', logo: VercelLogo }
+    { name: 'MongoDB', rating: 70, note: 'Intermediate', description: 'Skilled in working with NoSQL databases like MongoDB.', logo: MongoDBLogo },
+    { name: 'Firebase', rating: 85, note: 'Semi-Advanced', description: 'Experienced in using Firebase for backend services.', logo: FirebaseLogo },
+    { name: 'Git', rating: 60, note: 'Intermediate', description: 'Proficient in version control with Git.', logo: GitLogo },
+    { name: 'GitHub', rating: 60, note: 'Intermediate', description: 'Experienced with GitHub for collaboration and version control.', logo: GitHubLogo },
+    { name: 'Vercel', rating: 60, note: 'Intermediate', description: 'Proficient in deploying applications with Vercel.', logo: VercelLogo }
   ];
 
   return (

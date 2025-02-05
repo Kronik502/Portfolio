@@ -140,6 +140,15 @@ function Experience() {
         <p><a href={resume.profileLinks.linkedIn}>LinkedIn</a></p>
         <p><a href={resume.profileLinks.profileApp}>Profile Application</a></p>
       </div>
+      <div className="resume-download">
+        <a 
+          href="/resume.pdf" 
+          download="Kgabo_Kwenaite_Resume.pdf" 
+          className="download-button"
+        >
+          Download Resume
+        </a>
+      </div>
     </section>
   );
 }

@@ -1,3 +1,32 @@
+<p>Date Completed : 10 October 2024</p>
+ 
+tree/main
+ 
+start
+ 
+    </section>
+       <section id="contact" className="contact">
+      
+        </section>
+ 
+ {/* Single Image */}
+ 
+ {/* Step 4 */}
+ 
+   {/* Step 3 */}
+ 
+ {/* Step 2 */}
+ 
+ {/* Step 1 */}
+ 
+ {/* Step 0 */}
+ 
+// Keep the image
+ 
+// Progress every 2.5 seconds for better pacing
+ 
+// Only one image used here
+ 
 180px
  
 fc5c7d
