@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-// src/components/Skills.js
-import React from 'react';
-import './Skills.css';
-
-function Skills() {
-  const skills = [
-    'JavaScript',
-    'ReactJS',
-    'Redux',
-    'NodeJS',
-    'Express',
-    'HTML',
-    'CSS',
-    'MongoDB',
-    'Firebase',
-    'Git',
-    'GitHub',
-    'Vercel'
-=======
 import React from 'react';
 import './Skills.css';
 
@@ -49,18 +29,10 @@ function Skills() {
     { name: 'Git', rating: 60, note: 'Intermediate', description: 'Proficient in version control with Git.', logo: GitLogo },
     { name: 'GitHub', rating: 60, note: 'Intermediate', description: 'Experienced with GitHub for collaboration and version control.', logo: GitHubLogo },
     { name: 'Vercel', rating: 60, note: 'Intermediate', description: 'Proficient in deploying applications with Vercel.', logo: VercelLogo }
->>>>>>> master
   ];
 
   return (
     <section id="skills" className="skills">
-<<<<<<< HEAD
-      <h2>Skills</h2>
-      <div className="skills-list">
-        {skills.map((skill, index) => (
-          <div key={index} className="skill">
-            {skill}
-=======
       <h2 className="skils-title">Skills</h2>
       <div className="skills-list">
         {skills.map((skill, index) => (
@@ -77,7 +49,6 @@ function Skills() {
             </div>
             <div className="rating-note">{skill.note}</div>
             <div className="skill-description">{skill.description}</div>
->>>>>>> master
           </div>
         ))}
       </div>
