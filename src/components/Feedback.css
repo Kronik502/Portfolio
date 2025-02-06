@@ -1,52 +1,143 @@
 /* src/components/Feedback.css */
 
 .feedback {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 900px;
+  background: linear-gradient(135deg, #2b2d42, #8d99ae);
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  color: #ffffff;
+  position: relative;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.feedback h2 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #edf2f4;
+  position: relative;
+}
+
+.feedback h2::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background: #ef233c;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.feedback-reflection, .feedback-comments {
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feedback-reflection:hover, .feedback-comments:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.feedback-reflection h3, .feedback-comments h3 {
+  font-size: 32px;
+  color: #f8f9fa;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.feedback-reflection p, .feedback-comments ul {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #d1d9e6;
+  margin: 10px 0;
+}
+
+.feedback-comments ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.feedback-comments ul li {
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.feedback-comments ul li:hover {
+  color: #ef233c;
+}
+
+.feedback:hover::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0));
+  transform: scale(0);
+  animation: pulse 2s infinite;
+  border-radius: 50%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90px;
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0);
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .feedback {
     padding: 20px;
-    max-width: 100%;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    background: linear-gradient(90deg, #000000, #5e7c88);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
-  
+
   .feedback h2 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 40px;
-    margin-bottom: 25px;
-    border-bottom: 2px solid #f0f0f0;
-    padding-bottom: 10px;
-    height: 120px;
+    font-size: 36px;
   }
-  
-  .feedback-reflection, .feedback-comments {
-    margin-bottom: 25px;
-  }
-  
+
   .feedback-reflection h3, .feedback-comments h3 {
-    color: #ffffff;
-    font-size: 40px;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 8px;
-    margin-bottom: 15px;
+    font-size: 24px;
   }
-  
+
   .feedback-reflection p, .feedback-comments ul {
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: 500;
-    line-height: 1.6;
-    margin: 8px 0;
+    font-size: 16px;
   }
-  
-  .feedback-comments ul {
-    padding-left: 20px;
-    list-style-type: circle;
-  }
-  
-  .feedback-comments ul li {
-    margin-bottom: 8px;
-  }
-  
+}

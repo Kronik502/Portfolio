@@ -1,109 +1,133 @@
-/* src/components/Experience.css */
+/* Experience.css */
 
 .experience {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 20px auto;
-  padding: 20px;
-  max-width: 100%;
-  border: 1px solid #e0e0e0;
-
-  background: linear-gradient(90deg, #000000, #747477d5);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #01002c);
+  color: #1a1a1a;
+  line-height: 1.8;
 }
 
-.experience h2 {
+h2 {
   text-align: center;
-  color: #ffffff;
-  font-size: 50px;
-  margin-bottom: 25px;
-  border-bottom: 2px solid #f0f0f0;
-  padding-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .resume-section {
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .resume-section h3 {
-  color: #ffffff;
-  font-size: 29px;
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 8px;
-  margin-bottom: 15px;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #4a90e2;
+  border-bottom: 3px solid #e0e7ff;
+  padding-bottom: 0.5rem;
+  text-transform: capitalize;
 }
 
-.resume-section p, .resume-section ul {
-  color: #ffffff;
-  font-size: 25px;
-  line-height: 1.6;
-  margin: 8px 0;
+.resume-section p {
+  margin: 0.8rem 0;
+  font-size: 1.1rem;
 }
 
 .resume-section ul {
-  padding-left: 20px;
-  list-style-type: circle;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
 }
 
 .resume-section ul li {
-  margin-bottom: 8px;
+  position: relative;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  color: #505050;
 }
 
-.experience-card {
-  padding: 18px;
-  border: 1px solid #e0e0e0;
+.resume-section ul li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #4a90e2;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.resume-section strong {
+  color: #4a90e2;
+}
+
+.resume-download {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.download-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #4a90e2, #007aff);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   border-radius: 8px;
-  margin-bottom: 15px;
-  background-color: #fafafa;
-}
-
-.experience-card h3 {
-  color: #333333;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-
-.experience-card h4 {
-  color: #666666;
-  font-size: 18px;
-  margin-bottom: 8px;
-}
-
-.experience-card ul {
-  margin-top: 12px;
-  padding-left: 20px;
-  list-style-type: disc;
-  color: #777777;
-}
-
-.experience-card ul li {
-  margin-bottom: 8px;
-}
-
-.resume-section a {
-  color: #007acc;
   text-decoration: none;
-  transition: color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
-.resume-section a:hover {
-  color: #005a99;
+.download-button:hover {
+  background: linear-gradient(135deg, #007aff, #4a90e2);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+a {
+  color: #007aff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0056b3;
   text-decoration: underline;
 }
-.resume-download{
-  border-radius: 8px;
-  color: #fafafa;
-  background-color: #ffffff;
-  width: 230px;
-  height:50px;
-  align-content: center;
-  margin: 0 auto;
-  padding :2px;
-  border-width: 3px;
-  border-color: #f0f0f0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.2rem;
-}
-.resume-download:hover{
 
-  background-color: #5ccbff;
+@media (min-width: 768px) {
+  .experience {
+    padding: 4rem 6rem;
+  }
+
+  .resume-section {
+    padding: 2.5rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  .resume-section h3 {
+    font-size: 2.2rem;
+  }
+
+  .download-button {
+    font-size: 1.4rem;
+    padding: 1rem 2.5rem;
+  }
 }

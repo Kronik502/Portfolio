@@ -39,8 +39,8 @@ function Experience() {
       degree: "NCV L4 IT & Computer Science",
       institution: "Ekurhuleni West College",
       location: "Tembisa, South Africa",
-      dates: "January 2021 - December 2024",
-      note: "(Awaiting results)"
+      dates: "January 2021 - December 2025",
+      note: "1 Math module has to be completed in 2025"
     },
     languages: [
       { language: "English", level: "C2" },
