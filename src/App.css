@@ -15,15 +15,62 @@ body {
 }
 
 .section {
-  width: 100%;
-  
+  width: 90%; /* Ensure sections fit nicely on smaller screens */
+  max-width: 1200px; /* Limit the width on larger screens */
   padding: 40px;
+  margin: 20px auto; /* Add spacing between sections */
   background: linear-gradient(90deg, #0000007c, #01002c);
   border-radius: 50px;
-  box-shadow: 6px rgb(255, 255, 255);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
 
+/* Animations */
 @keyframes fadeBackground {
   0% { background: linear-gradient(90deg, #000000, #01002c); }
   100% { background: linear-gradient(90deg, #000000, #01002c); }
+}
+
+/* Media Queries */
+
+/* Mobile-first design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Adjust font size for readability */
+  }
+
+  .App {
+    padding: 10px; /* Add padding around the App container */
+  }
+
+  .section {
+    padding: 20px; /* Reduce padding for smaller screens */
+    border-radius: 20px; /* Softer edges for smaller devices */
+  }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  .section {
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 30px;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px; /* Larger font size for better readability */
+  }
+
+  .section {
+    width: 80%; /* Center sections with a fixed width */
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 50px;
+  }
 }
