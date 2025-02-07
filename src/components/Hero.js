@@ -17,7 +17,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
        
-        {step >= 1 && <h1 className="hi-text fade-in">Hi ..</h1>}
+        {step >= 1 && <h1 className="hi-text fade-in">Hi</h1>}
 
        
         {step >= 2 && <h1 className="name-text fade-in">{`I'm Kgabo Kwenaite`}</h1>}
@@ -36,7 +36,7 @@ function Hero() {
 
        
         {step >= 5 && (
-          <h2 className="location-text fade-in">Last Update : 5 February 2025</h2>
+          <h2 className="location-text fade-in">Last Update : 7 February 2025</h2>
         )}
       </div>
 
