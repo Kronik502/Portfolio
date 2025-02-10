@@ -132,9 +132,9 @@ function Projects() {
         {individualProjects.map((project, index) => (
           <div key={index} className="project-card">
             <img src={project.thumbnail} alt={`${project.title} thumbnail`} className="project-image" />
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <div className="project-links">
+            <h3 classname='ptitle'>{project.title}</h3>
+            <p classname='ptitle'>{project.description}</p>
+            <div  className="project-links">
               <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn">
                 Live Demo
               </a>

@@ -33,7 +33,7 @@
 
 /* Typography */
 .about-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 900;
   color: #ffffff;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
 }
 
 .fun-fact {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-style: italic;
   font-weight: 900;
   color: #ffffff;

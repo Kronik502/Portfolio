@@ -36,7 +36,7 @@ function Hero() {
 
        
         {step >= 5 && (
-          <h2 className="location-text fade-in">Last Update : 7 February 2025</h2>
+          <h2 className="location-text fade-in">Last Update : 10 February 2025</h2>
         )}
       </div>
 

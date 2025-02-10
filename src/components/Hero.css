@@ -3,12 +3,13 @@
   --secondary-color: #ffffff;
   --text-color: #fff;
   --accent-color: #ececec;
-  --background-gradient: linear-gradient(90deg, #6a82fb, #fc5c7d);
+  --background-gradient:linear-gradient(90deg, #000000, #01002c);
   --neon-glow: rgba(25, 106, 226, 0.8);
   --neon-blue: #1c82f2;
   --neon-pink: #1c82f2;
   --neon-green: #32f7d3;
  
+
 }
 
 body {
@@ -182,13 +183,13 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hi-text, .name-text { font-size: 3.5rem; }
-  .profession-text, .location-text { font-size: 1.6rem; }
+  .hi-text, .name-text { font-size :2rem; }
+  .profession-text, .location-text { font-size: 1rem; }
   .btn { padding: 12px 28px; font-size: 1.2rem; }
 }
 
 @media (max-width: 480px) {
   .hi-text, .name-text { font-size: 2.5rem; }
-  .profession-text, .location-text { font-size: 1.4rem; }
+  .profession-text, .location-text { font-size:rem; }
   .btn { padding: 10px 22px; font-size: 1.1rem; }
 }

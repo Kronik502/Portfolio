@@ -163,11 +163,69 @@ nav {
     width: 30px;
     height: 3px;
   }
+
+  /* Add better tap/click space for menu links */
+  .nav-links a {
+    font-size: 1.4rem;
+    padding: 10px 0;
+  }
 }
+
+@media (max-width: 480px) {
+  /* For extra small devices like phones in portrait mode */
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .burger {
+    width: 28px;
+    height: 20px;
+  }
+
+  .burger .line {
+    height: 3px;
+  }
+
+  .nav-links {
+    width: 100%;
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+}
+
 @media (min-width: 1024px) {
   .nav-links a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 0.5rem 1rem;
     border-radius: 5px;
+  }
+
+  .burger {
+    display: none; /* Hide burger icon on larger screens */
+  }
+
+  /* Keep nav links inline for larger screens */
+  .nav-links {
+    flex-direction: row;
+    background-color: transparent;
+    opacity: 1;
+    transform: translateX(0);
+    position: static;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .nav-links-container {
+    display: block;
+  }
+
+  /* Add hover effect on larger screens */
+  .nav-links a:hover {
+    text-decoration: underline;
   }
 }
