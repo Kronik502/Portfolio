@@ -142,7 +142,7 @@ function Experience() {
       </div>
       <div className="resume-download">
         <a 
-          href="/resume.pdf" 
+          href="/Resume.pdf" 
           download="Kgabo_Kwenaite_Resume.pdf" 
           className="download-button"
         >

@@ -1,3 +1,36 @@
+.hero-image{
+  height:400px;
+  width
+}
+ 
+, .name-text
+ 
+transparent
+ 
+333
+ 
+items
+ 
+ali
+ 
+absolute
+ 
+linear-gradient(90deg, #000000, #01002c)
+ 
+url("https://i.imgur.com/wbKlfLs.png") repeat
+ 
+Goals
+ 
+.nav-links-container::open{
+  background-color: black;
+}
+ 
+after
+ 
+transparent
+ 
+ box-shadow: 0 10px 20px rgba(253, 248, 248, 0.3);
+ 
 .ptitle{
   color : white;
 }

@@ -13,7 +13,7 @@ function Header() {
       <div className="logo">Kgabo Kwenaite</div>
       <nav aria-label="Primary navigation">
         <div className={`nav-links-container ${menuOpen ? 'open' : ''}`}>
-          <ul className={`nav-links ${menuOpen ? 'open' : ''}`} aria-hidden={!menuOpen}>
+          <ul className={`nav-links ${menuOpen ? 'open' : ''}`} id="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#resume">Resume</a></li>
@@ -24,7 +24,13 @@ function Header() {
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <div className="burger" onClick={toggleMenu} role="button" aria-expanded={menuOpen} aria-controls="nav-links">
+        <div
+          className="burger"
+          onClick={toggleMenu}
+          role="button"
+          aria-expanded={menuOpen}
+          aria-controls="nav-links"
+        >
           <div className={`line line1 ${menuOpen ? 'open' : ''}`}></div>
           <div className={`line line2 ${menuOpen ? 'open' : ''}`}></div>
           <div className={`line line3 ${menuOpen ? 'open' : ''}`}></div>
