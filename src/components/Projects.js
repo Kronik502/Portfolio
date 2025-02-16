@@ -127,14 +127,14 @@ function Projects() {
 
   return (
     <section id="projects" className="projects">
-      <h2>Individual Projects</h2>
+      <h2 className='h2'>Individual Projects</h2>
       <div className="project-grid">
         {individualProjects.map((project, index) => (
-          <div key={index} className="project-card">
-            <img src={project.thumbnail} alt={`${project.title} thumbnail`} className="project-image" />
-            <h3 classname='ptitle'>{project.title}</h3>
-            <p classname='ptitle'>{project.description}</p>
-            <div  className="project-links">
+        <div key={index} className="project-card">
+        <img src={project.thumbnail} alt={`${project.title} thumbnail`} className="project-image" />
+        <h3 className="ptitle">{project.title}</h3>
+        <p className="ptitle">{project.description}</p>
+        <div className="project-links">
               <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn">
                 Live Demo
               </a>

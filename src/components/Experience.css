@@ -3,8 +3,8 @@
 .experience {
   padding: 3rem 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom, #474444, #01002c);
-  color: #1a1a1a;
+  background: black;
+  color: #5d99ac;
   line-height: 1.8;
   max-width: 1000px;
   margin: 50px auto;
@@ -39,7 +39,7 @@ h2::after {
 .resume-section {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: #fff;
+  background: #202020;
   border-radius: 16px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -63,7 +63,7 @@ h2::after {
   margin: 0.8rem 0;
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #505050;
+  color: #ffffff;
 }
 
 .resume-section ul {
@@ -77,7 +77,7 @@ h2::after {
   margin-bottom: 0.8rem;
   padding-left: 1.5rem;
   font-size: 1.1rem;
-  color: #505050;
+  color: #ffffff;
 }
 
 .resume-section ul li::before {

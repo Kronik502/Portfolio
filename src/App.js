@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main>
+      <main  >
         {sections.map((section) => (
           <section key={section.id} id={section.id} className="section">
             {section.component}
