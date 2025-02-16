@@ -3,7 +3,7 @@
 /* Define color variables */
 :root {
     --primary-color: #3498db;
-    --secondary-color: #2ecc71;
+    --secondary-color: #ffffff;
     --background-color: #000000;
     --text-color: #ffffff;
   }
@@ -12,6 +12,9 @@
     padding: 50px;
     background-color: var(--background-color);
     color: var(--text-color);
+    border: 1px solid ;
+    border-radius: 5px ;
+    border-color: var(--primary-color);
   }
   
   .contact-info {
@@ -45,7 +48,7 @@
     display: inline-block;
     padding: 10px;
     border-radius: 5px;
-    background-color:rgb(3, 3, 3) ;
+    background-color:rgba(3, 3, 3, 0) ;
     color: white;
     font-size: 24px; /* Adjust icon size */
     text-decoration: none;

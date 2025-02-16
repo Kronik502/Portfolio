@@ -1,3 +1,38 @@
+ .hi-text, .name-text {
+  
+  }
+ 
+gap: px;
+ 
+5
+ 
+#ffffff
+ 
+var(--neon-blue)
+ 
+.contact{
+  font-size:0.9rem;
+}
+ 
+ className='contact
+ 
+className='contact'
+ 
+SocialLinks
+ 
+.social-links a {
+  color: var(--primary-color);
+  font-size: 1rem;
+  transition: transform 0.3s ease, color 0.3s ease, perspective 1000px;
+}
+ 
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  animation: fadeInUp 1.5s ease-out forwards, popIn 1s ease-out;
+}
+ 
 .hero-image{
   height:400px;
   width
